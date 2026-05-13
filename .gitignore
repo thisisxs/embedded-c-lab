@@ -1,0 +1,20 @@
+# Build output
+build/
+bin/
+*.o
+*.out
+a.out
+
+# Executable files
+*.exe
+
+# Temporary files
+*.log
+*.tmp
+
+# Vim temporary files
+*.swp
+*.swo
+
+# VS Code settings
+.vscode/
