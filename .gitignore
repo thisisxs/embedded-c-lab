@@ -1,20 +1,23 @@
-# Build output
+# Build outputs
 build/
-bin/
 *.o
 *.out
-a.out
-
-# Executable files
 *.exe
 
-# Temporary files
-*.log
-*.tmp
+# Debug files
+*.dSYM/
+*.core
 
-# Vim temporary files
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
 *.swp
 *.swo
+*~
 
-# VS Code settings
-.vscode/
+# OS files
+.DS_Store
+Thumbs.db
